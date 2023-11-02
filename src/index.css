@@ -15,3 +15,13 @@
   background-color: black;
   color: white;
 }
+
+/* .selection-tag,
+.number-of-selection {
+  display: none;
+} */
+
+.t {
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
