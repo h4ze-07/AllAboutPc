@@ -7,10 +7,10 @@ import bfp from '../../images/bfp.png'
 const Other = () => {
   return (
     <div className='mt-[60px]'>
-        <h1 className='text-center my-[30px] text-[35px] font-bold'>Периферійні пристрої комп’ютера</h1>
+        <h1 className='text-center my-[30px] text-[25px] font-bold'>Периферійні пристрої комп’ютера</h1>
 
 
-        <div>
+        <div id='monitor'>
             <h2 className='text-center text-[25px] font-bold my-[10px]'>Монітор</h2>
             <div className='flex flex-col lg:flex-row-reverse gap-[20px] lg:gap-[45px] items-center'>
                 <p>
@@ -25,7 +25,7 @@ const Other = () => {
             </div>
         </div>
 
-        <div>
+        <div id='kb'>
             <h2 className='text-center text-[25px] font-bold my-[10px]'>Клавіатура</h2>
             <div className='flex flex-col lg:flex-row gap-[20px] lg:gap-[45px] items-center'>
                 <p>
@@ -36,7 +36,7 @@ const Other = () => {
             </div>
         </div>
 
-        <div>
+        <div id='mouse'>
             <h2 className='text-center text-[25px] font-bold my-[10px]'>Миша</h2>
             <div className='flex flex-col lg:flex-row-reverse gap-[20px] lg:gap-[45px] items-center'>
                 <p>
@@ -48,7 +48,7 @@ const Other = () => {
             </div>
         </div>
 
-        <div className='mb-[50px]'>
+        <div className='mb-[50px]' id='print'>
             <h2 className='text-center text-[25px] font-bold my-[10px]'>Принтер і сканери</h2>
             <div className='flex flex-col lg:flex-row gap-[20px] lg:gap-[45px] items-center'>
                 <div>

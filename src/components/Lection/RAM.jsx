@@ -4,7 +4,7 @@ import ram2 from '../../images/ram2.jpg';
 
 const RAM = () => {
   return (
-    <div className='mt-[60px]'>
+    <div className='mt-[60px]' id='RAM'>
         <h2 className='text-center text-[25px] font-bold my-[10px]'>Оперативна пам'ять</h2>
         <div className='flex flex-col gap-4'>
             <p className='mt-[40px]'>

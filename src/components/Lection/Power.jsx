@@ -3,7 +3,7 @@ import power1 from '../../images/power.jpg';
 
 const Power = () => {
   return (
-    <div className='mt-[60px]'>
+    <div className='mt-[60px]' id='power'>
         <h2 className='text-center text-[25px] font-bold my-[10px]'>Блок живлення</h2>
         <div className='flex flex-col lg:flex-row gap-4 items-center'>
             <p>

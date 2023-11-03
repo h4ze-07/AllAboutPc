@@ -13,7 +13,7 @@ const ResultModal = ({result, setResult, setModal}) => {
 //   }, 5000)
 
   return (
-    <div className='z-10 w-screen h-screen bg-[#00000083] absolute top-0 left-0'>
+    <div className='z-100 w-screen h-screen bg-[#00000083] absolute top-0 left-0'>
         
         <div className='t bg-white rounded-[30px] px-[20px] py-[30px] top-[50%] left-[50%] w-[400px] flex flex-col items-center'>
             <h3 className='font-bold text-[25px]'>Ви завершили тест!</h3>

@@ -6,7 +6,7 @@ import intel from '../../images/intel.jpg';
 
 const CPU = () => {
   return (
-    <div className='mt-[60px]'>
+    <div className='mt-[60px]' id='CPU'>
         <h2 className='text-center text-[25px] font-bold my-[10px]'>Процесор</h2>
         <div className='flex flex-col gap-4'>
             <div className='flex flex-col lg:flex-row'>

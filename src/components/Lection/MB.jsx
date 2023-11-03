@@ -4,7 +4,7 @@ import mb2 from '../../images/mb2.png';
 
 const MB = () => {
   return (
-    <div className='mt-[60px]'>
+    <div className='mt-[60px]' id='mb'>
         <h2 className='text-center text-[25px] font-bold my-[10px]'>Материнська плата</h2>
         <div className='flex flex-col gap-4 mt-[40px]'>
             <p className='text-center text-[18px]'>

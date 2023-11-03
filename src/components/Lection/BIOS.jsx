@@ -4,7 +4,7 @@ import bios3 from '../../images/bios3.jpg';
 
 const BIOS = () => {
   return (
-    <div className='mt-[60px]'>
+    <div className='mt-[60px]' id='bios'>
         <h2 className='text-center text-[25px] font-bold my-[10px]'>Базова система вводу-виводу BIOS</h2>
         <div className='flex flex-col gap-4'>
             <div className='flex flex-col lg:flex-row gap-5 mt-[40px] items-start'>

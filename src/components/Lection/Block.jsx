@@ -4,7 +4,7 @@ import pc1 from '../../images/pc1.jpg';
 const Block = () => {
   return (
     <>
-        <h1 className='text-center my-[30px] text-[35px] font-bold'>Пристрої системного блоку</h1>
+        <h1 className='text-center my-[30px] text-[25px] font-bold' id='block'>Пристрої системного блоку</h1>
         <div className='flex flex-col gap-4'>
             <p>
                 Комп'ютер, в повсякденному розумінні, складається з <span className='font-bold'>системного блоку, монітора, клавіатури, мишки, аудіосистеми.</span> До нього можна підключити геймпад, принтер, сканер і багато інших пристроїв.

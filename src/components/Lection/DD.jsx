@@ -4,7 +4,7 @@ import ssd1 from '../../images/ssd1.jpg';
 
 const DD = () => {
   return (
-    <div className='mt-[60px]'>
+    <div className='mt-[60px]' id='disks'>
         <h2 className='text-center text-[25px] font-bold my-[10px]'>Постійний запам'ятовуючі пристрої</h2>
         <div className='flex flex-col gap-4 mt-5'>
             <p>На сьогоднішній день в комп'ютерній техніці використовуються запам'ятовуючі пристрої 2 основних типів - це жорсткі диски (HDD) та SSD. Іноді зустрічаються також "гібриди" SSHD, що поєднують у собі SSD та HDD.</p>
